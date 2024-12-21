@@ -55,3 +55,9 @@ footer {
 .nav-menu a:hover {
 	text-decoration: underline;
 }
+
+.profile-img {
+	max-width: 150px;
+	border-radius: 50%;
+	margin-top: 1rem;
+}
