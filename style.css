@@ -32,3 +32,26 @@ footer {
 	background-color: #333;
 	color: white;
 }
+
+.nav-menu {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	background-color: #ff0000;
+	margin: 0;
+}
+
+.nav-menu li {
+	margin: 0;
+}
+
+.nav-menu a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.nav-menu a:hover {
+	text-decoration: underline;
+}
