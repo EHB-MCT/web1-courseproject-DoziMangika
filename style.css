@@ -4,3 +4,24 @@ body {
 	background-color: #f9f9f9;
 	color: #333;
 }
+
+header {
+	background-color: #ff0000;
+	color: white;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+.intro {
+	text-align: center;
+	padding: 2rem;
+	background-color: #ffe600;
+	border-radius: 8px;
+	margin: 2rem auto;
+	max-width: 800px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+	color: #ff0000;
+}
