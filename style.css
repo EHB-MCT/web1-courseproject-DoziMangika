@@ -61,6 +61,13 @@ footer {
 	text-decoration: underline;
 }
 
+.hamburger-menu {
+	display: none;
+	cursor: pointer;
+	font-size: 1.5rem;
+	color: white;
+}
+
 .profile-img {
 	max-width: 150px;
 	margin-top: 1rem;
