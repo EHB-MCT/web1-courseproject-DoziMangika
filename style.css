@@ -54,6 +54,9 @@ footer {
 
 .nav-menu a:hover {
 	text-decoration: underline;
+	color: #ffe600;
+	transform: scale(1.1);
+	transition: all 0.3s;
 }
 
 .nav-menu a.active {
