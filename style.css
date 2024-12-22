@@ -58,6 +58,41 @@ footer {
 
 .profile-img {
 	max-width: 150px;
-	border-radius: 50%;
 	margin-top: 1rem;
+}
+
+.ervaring {
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 1rem;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ervaring h2 {
+	color: #ff0000;
+	border-bottom: 2px solid #ffe600;
+	padding-bottom: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.ervaring ul {
+	margin: 1rem 0;
+	padding: 0.5rem;
+	border-bottom: 1px solid #eee;
+}
+
+.ervaring li:last-child {
+	border-bottom: none;
+}
+
+.ervaring strong {
+	font-weight: bold;
+	color: #333;
+}
+
+.ervaring p {
+	font-size: 0.9rem;
+	color: #666;
 }
