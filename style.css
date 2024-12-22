@@ -96,3 +96,52 @@ footer {
 	font-size: 0.9rem;
 	color: #666;
 }
+
+.ervaring li:hover {
+	background-color: #ffefc1;
+	transform: scale(1.02);
+	transition: all 0.3s ease;
+}
+
+.vaardigheden {
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 1rem;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vaardigheden h2 {
+	color: #ff0000;
+	border-bottom: 2px solid #ffe600;
+	padding-bottom: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.vaardigheden ul {
+	margin: 1rem 0;
+	padding: 0.5rem;
+	border-bottom: 1px solid #eee;
+}
+
+.vaardigheden li:last-child {
+	border-bottom: none;
+}
+
+.vaardigheden strong {
+	font-weight: bold;
+	color: #333;
+}
+
+.vaardigheden li:hover {
+	background-color: #ffefc1;
+	transform: scale(1.02);
+	transition: all 0.3s ease;
+}
+
+.vaardigheden li {
+	margin: 1rem 0;
+	padding: 0.5rem;
+	border-bottom: 1px solid #eee;
+}
