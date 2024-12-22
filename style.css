@@ -56,6 +56,11 @@ footer {
 	text-decoration: underline;
 }
 
+.nav-menu a.active {
+	color: #ffe600;
+	text-decoration: underline;
+}
+
 .profile-img {
 	max-width: 150px;
 	margin-top: 1rem;
