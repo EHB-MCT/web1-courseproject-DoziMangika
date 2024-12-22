@@ -103,6 +103,28 @@ footer {
 	}
 }
 
+#hamburger-menu {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	background-color: #ff0000;
+	padding: 1rem;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: opacity 0.3s ease, transform 0.3s ease;
+	opacity: 0;
+	transform: translateY(-20px);
+}
+
+#hamburg-menu.open {
+	opacity: 1;
+	transform: translateY(0);
+}
+
 .profile-img {
 	max-width: 150px;
 	margin-top: 1rem;
