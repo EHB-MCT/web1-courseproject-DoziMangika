@@ -7,9 +7,20 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<script>
+			function toggleMenu() {
+				const menu = document.querySelector(".nav-menu");
+				menu.classList.toggle("active");
+			}
+		</script>
 		<header>
 			<h1>Barry Allen</h1>
 			<nav>
+				<div class="hamburger-menu" onclick="toggleMenu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 				<ul class="nav-menu">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="ervaring.html">Ervaring</a></li>
