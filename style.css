@@ -60,6 +60,8 @@ footer {
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 5px;
 }
 
 .nav-menu a:hover {
@@ -88,6 +90,7 @@ footer {
 	margin: 5px auto;
 	background-color: white;
 	transition: 0.3s;
+	padding: 5px;
 }
 
 @media (max-width: 768px) {
