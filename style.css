@@ -77,6 +77,32 @@ footer {
 	transition: 0.3s;
 }
 
+@media (max-width: 768px) {
+	.nav-menu {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		background-color: #ff0000;
+		position: absolute;
+		top: 60px;
+		left: 0;
+		text-align: center;
+		padding: 1rem 0;
+	}
+
+	.nav-menu li {
+		margin: 1rem 0;
+	}
+
+	.nav-menu.active {
+		display: block;
+	}
+
+	.hamburger-menu {
+		display: block;
+	}
+}
+
 .profile-img {
 	max-width: 150px;
 	margin-top: 1rem;
